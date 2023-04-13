@@ -20,6 +20,8 @@
             |--consistenthash.go  // 一致性哈希算法实现负载均衡
         |singleflight
             |--singleflight.go  // singleflight机制防止缓存击穿
+        |geecachepb
+            |--geecachepb.proto // 自定义proto通信消息类型
     |--main.go  // api服务器和cache服务器启动入口
     
 ```
