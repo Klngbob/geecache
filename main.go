@@ -9,9 +9,9 @@ import (
 )
 
 var db = map[string]string{
-	"KingBob": "123",
-	"Jane":    "456",
-	"Nike":    "789",
+	"KingBob": "\n123",
+	"Jane":    "\n456",
+	"Nike":    "\n789",
 }
 
 func createGroup() *geecache.Group {
